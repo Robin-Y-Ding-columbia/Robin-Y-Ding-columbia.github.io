@@ -32,6 +32,6 @@ Publications
   
   **Yangruibo Ding**, Baishakhi Ray, Premkumar Devanbu, Vincent J. Hellendoorn
   
-  *The 35th IEEE/ACM International Conference on Automated Software Engineering (ASE '20). Acceptance Rate: 22.5% (93/414) *
+  *The 35th IEEE/ACM International Conference on Automated Software Engineering (ASE '20). Acceptance Rate: 22.5% (93/414)*
 
 
