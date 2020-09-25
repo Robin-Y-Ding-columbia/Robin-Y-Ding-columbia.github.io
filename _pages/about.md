@@ -16,6 +16,8 @@ I received my M.S. degree in Computer Science at Columbia University in Dec. 201
 
 News
 ======
+- September 2020: Presented our paper at ASE 2020!
+
 - August 2020: Our paper "CODIT: Code Editing with Tree-Based Neural Models" got accepted by TSE!
 
 - July 2020: Our paper "Patching as Translation: The data and the metaphor" got accepted by ASE 2020!
@@ -40,4 +42,7 @@ Publications
   
   *IEEE Transactions on Software Engineering*
 
+Service
+======
+- Program Committee member of [MSR Mining Challenge Track](https://2021.msrconf.org/track/msr-2021-mining-challenge#Call-for-Mining-Challenge-Papers) 2021
 
