@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "Yangruibo Ding"
-excerpt: "Yangruibo Ding"
+title: ""
+excerpt: ""
 author_profile: true
 redirect_from: 
   - /about/
