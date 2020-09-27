@@ -1,12 +1,15 @@
 ---
 permalink: /
-title: "About me"
-excerpt: "About me"
+title: "Yangruibo Ding"
+excerpt: "Yangruibo Ding"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+About Me
+======
 
 I am a first year Ph.D student at the Department of Computer Science at Columbia University, working with [Prof. Baishakhi Ray](https://www.rayb.info/). I am interested in machine learning (ML) for software engineering, including ML for automated program repair, and ML for program analysis.
 
