@@ -33,7 +33,7 @@ Publications
   Saikat Chakraborty, Rahul Krishna, **Yangruibo Ding**, Baishakhi Ray
   
 ## Conferences & Journals
-- Patching as Translation: the Data and the Metaphor [[pdf](https://arxiv.org/abs/2008.10707)] [[code](https://github.com/ARiSE-Lab/Patch-as-translation)]
+- Patching as Translation: the Data and the Metaphor [[pdf](https://arxiv.org/abs/2008.10707)] [[code](https://github.com/ARiSE-Lab/Patch-as-translation)] [[talk](https://www.youtube.com/watch?v=6pW8QlM70yE)]
   
   **Yangruibo Ding**, Baishakhi Ray, Premkumar Devanbu, Vincent J. Hellendoorn
   
