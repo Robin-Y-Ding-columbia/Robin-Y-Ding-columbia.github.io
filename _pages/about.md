@@ -11,7 +11,7 @@ redirect_from:
 About Me
 ======
 
-I am a first year Ph.D student at the Department of Computer Science at Columbia University, working with [Prof. Baishakhi Ray](https://www.rayb.info/). I am interested in machine learning (ML) for software engineering, including ML for automated program repair, and ML for program analysis.
+I am a Ph.D student at the Department of Computer Science at Columbia University, working with [Prof. Baishakhi Ray](https://www.rayb.info/). I am interested in machine learning (ML) for automated software engineering, especially ML for program analysis and code understanding.
 
 I received my M.S. degree in Computer Science at Columbia University in Dec. 2019, and B.E. degree in Software Engineering at University of Electronic Science and Technology of China in July 2018.
 
@@ -19,31 +19,38 @@ I received my M.S. degree in Computer Science at Columbia University in Dec. 201
 
 News
 ======
-- September 2020: Presented our paper at ASE 2020!
+- May. 2021: "Deep Learning based Vulnerability Detection: Are We There Yet?" got accepted by TSE!
 
-- August 2020: Our paper "CODIT: Code Editing with Tree-Based Neural Models" got accepted by TSE!
+- Feb. 2021: "CODIT: Code Editing with Tree-Based Neural Models" got accepted by ICSE 2021 Journal First Track!
 
-- July 2020: Our paper "Patching as Translation: The data and the metaphor" got accepted by ASE 2020!
+- August 2020: "CODIT: Code Editing with Tree-Based Neural Models" got accepted by TSE!
+
+- July 2020: "Patching as Translation: The data and the metaphor" got accepted by ASE 2020!
 
 Publications
 ======
-## Pre-print
-- Deep Learning based Vulnerability Detection: Are We There Yet? [[pdf](https://arxiv.org/abs/2009.07235)]
+<!---## Pre-print--->
 
-  Saikat Chakraborty, Rahul Krishna, **Yangruibo Ding**, Baishakhi Ray
   
-## Conferences & Journals
+<!---## Conferences & Journals--->
+
 - Patching as Translation: the Data and the Metaphor [[pdf](https://arxiv.org/abs/2008.10707)] [[code](https://github.com/ARiSE-Lab/Patch-as-translation)] [[talk](https://www.youtube.com/watch?v=6pW8QlM70yE)]
   
   **Yangruibo Ding**, Baishakhi Ray, Premkumar Devanbu, Vincent J. Hellendoorn
   
-  *The 35th IEEE/ACM International Conference on Automated Software Engineering (ASE '20). Acceptance Rate: 22.5% (93/414)*
+  *The 35th IEEE/ACM International Conference on Automated Software Engineering (ASE '20).*
 
 - CODIT: Code Editing with Tree-Based Neural Models [[pdf](https://arxiv.org/abs/1810.00314)]
 
   Saikat Chakraborty, **Yangruibo Ding**, Miltiadis Allamanis, Baishakhi Ray
   
-  *IEEE Transactions on Software Engineering*
+  *IEEE Transactions on Software Engineering (TSE)*
+  
+- Deep Learning based Vulnerability Detection: Are We There Yet? [[pdf](https://arxiv.org/abs/2009.07235)]
+
+  Saikat Chakraborty, Rahul Krishna, **Yangruibo Ding**, Baishakhi Ray
+  
+  *IEEE Transactions on Software Engineering (TSE)*
 
 Service
 ======
