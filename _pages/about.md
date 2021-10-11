@@ -30,7 +30,7 @@ News
 Publications
 ======
 ___Pre-print___
-- Contrastive Learning for Source Code with Structural and Functional Properties [[pdf](https://arxiv.org/abs/2008.10707)]
+- Contrastive Learning for Source Code with Structural and Functional Properties [[pdf](http://arxiv.org/abs/2110.03868)]
 
   **Yangruibo Ding**, Luca Buratti, Saurabh Pujar, Alessandro Morari, Baishakhi Ray, Saikat Chakraborty
   
