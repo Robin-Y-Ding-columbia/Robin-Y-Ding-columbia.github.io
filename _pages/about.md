@@ -11,7 +11,7 @@ redirect_from:
 About Me
 ======
 
-I am a Ph.D student at the Department of Computer Science at Columbia University, working with [Prof. Baishakhi Ray](https://www.rayb.info/). I am interested in machine learning (ML) for automated software engineering, especially ML for program analysis and code understanding.
+I am a Ph.D student at the Department of Computer Science at Columbia University, working with [Prof. Baishakhi Ray](https://www.rayb.info/) and [Prof. Gail Kaiser](http://www.cs.columbia.edu/~kaiser/). I am interested in machine learning (ML) for automated software engineering, especially ML for program analysis and code understanding.
 
 I received my M.S. degree in Computer Science at Columbia University in Dec. 2019, and B.E. degree in Software Engineering at University of Electronic Science and Technology of China in July 2018.
 
