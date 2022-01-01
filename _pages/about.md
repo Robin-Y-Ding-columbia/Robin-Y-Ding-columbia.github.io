@@ -15,17 +15,19 @@ I am a Ph.D student at the Department of Computer Science at Columbia University
 
 I received my M.S. degree in Computer Science at Columbia University in Dec. 2019, and B.E. degree in Software Engineering at University of Electronic Science and Technology of China in July 2018.
 
-**Contact me by email:** first_name [dot] last_name [at] columbia [dot] edu
+**Contact me by email:** yrbding [at] cs [dot] columbia [dot] edu
 
 News
 ======
-- May. 2021: "Deep Learning based Vulnerability Detection: Are We There Yet?" got accepted by TSE!
+- Dec. 2021: "VELVET: a noVel Ensemble Learning approach to automatically locate VulnErable sTatements" got accepted by SANER 2022.
 
-- Feb. 2021: "CODIT: Code Editing with Tree-Based Neural Models" got accepted by ICSE 2021 Journal First Track!
+- May. 2021: "Deep Learning based Vulnerability Detection: Are We There Yet?" got accepted by TSE.
 
-- August 2020: "CODIT: Code Editing with Tree-Based Neural Models" got accepted by TSE!
+- Feb. 2021: "CODIT: Code Editing with Tree-Based Neural Models" got accepted by ICSE 2021 Journal First Track.
 
-- July 2020: "Patching as Translation: The data and the metaphor" got accepted by ASE 2020!
+- August 2020: "CODIT: Code Editing with Tree-Based Neural Models" got accepted by TSE.
+
+- July 2020: "Patching as Translation: The data and the metaphor" got accepted by ASE 2020.
 
 Publications
 ======
@@ -50,11 +52,20 @@ ___Conferences & Journals___
   
   *IEEE Transactions on Software Engineering (TSE)*
   
+  *The 43rd IEEE/ACM International Conference on Software Engineering (ICSE '21 Journal-First)*
+  
 - Deep Learning based Vulnerability Detection: Are We There Yet? [[pdf](https://arxiv.org/abs/2009.07235)]
 
   Saikat Chakraborty, Rahul Krishna, **Yangruibo Ding**, Baishakhi Ray
   
   *IEEE Transactions on Software Engineering (TSE)*
+
+- VELVET: a noVel Ensemble Learning approach to automatically locate VulnErable sTatements [[pdf](https://arxiv.org/abs/2112.10893)] [[code](https://github.com/ARiSE-Lab/VELVET)]
+
+  **Yangruibo Ding**, Sahil Suneja, Yunhui Zheng, Jim Laredo, Alessandro Morari, Gail Kaiser, Baishakhi Ray
+  
+  *The 29th IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER '22).*
+  
 
 Service
 ======
