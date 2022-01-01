@@ -21,6 +21,8 @@ News
 ======
 - Dec. 2021: "VELVET: a noVel Ensemble Learning approach to automatically locate VulnErable sTatements" got accepted by SANER 2022.
 
+- May 2021: Started summer internship at IBM Research as Ph.D. Research Intern.
+
 - May. 2021: "Deep Learning based Vulnerability Detection: Are We There Yet?" got accepted by TSE.
 
 - Feb. 2021: "CODIT: Code Editing with Tree-Based Neural Models" got accepted by ICSE 2021 Journal First Track.
@@ -28,6 +30,8 @@ News
 - August 2020: "CODIT: Code Editing with Tree-Based Neural Models" got accepted by TSE.
 
 - July 2020: "Patching as Translation: The data and the metaphor" got accepted by ASE 2020.
+
+- June 2020: Started summer internship at IBM Research as Ph.D. Research Intern.
 
 Publications
 ======
