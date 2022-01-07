@@ -73,5 +73,7 @@ ___Conferences & Journals___
 
 Service
 ======
+- Shadow PC committee member of [MSR 2022](https://conf.researchr.org/home/msr-2022)
 - Program Committee member of [MSR Mining Challenge Track](https://2021.msrconf.org/track/msr-2021-mining-challenge#Call-for-Mining-Challenge-Papers) 2021
+
 
