@@ -11,7 +11,7 @@ redirect_from:
 About Me
 ======
 
-I am a Ph.D student at the Department of Computer Science at Columbia University, working with [Prof. Baishakhi Ray](https://www.rayb.info/) and [Prof. Gail Kaiser](http://www.cs.columbia.edu/~kaiser/). I am interested in machine learning (ML) for automated software engineering, especially ML for program analysis and code understanding.
+I am a Ph.D student at the Department of Computer Science at Columbia University, working with [Prof. Baishakhi Ray](https://www.rayb.info/) and [Prof. Gail Kaiser](http://www.cs.columbia.edu/~kaiser/). My research, in general, focuses on machine learning for automated software engineering, and I am especially interested in self-supervised source code modeling and deep learning for program analysis.
 
 I received my M.S. degree in Computer Science at Columbia University in Dec. 2019, and B.E. degree in Software Engineering at University of Electronic Science and Technology of China in July 2018.
 
@@ -19,6 +19,8 @@ I received my M.S. degree in Computer Science at Columbia University in Dec. 201
 
 News
 ======
+- Feb. 2022: "Deep Learning based Vulnerability Detection: Are We There Yet?" got accepted by ICSE 2022 Journal First Track.
+
 - Dec. 2021: "VELVET: a noVel Ensemble Learning approach to automatically locate VulnErable sTatements" got accepted by SANER 2022.
 
 - May 2021: Started summer internship at IBM Research as Ph.D. Research Intern.
@@ -48,21 +50,23 @@ ___Conferences & Journals___
   
   **Yangruibo Ding**, Baishakhi Ray, Premkumar Devanbu, Vincent J. Hellendoorn
   
-  *The 35th IEEE/ACM International Conference on Automated Software Engineering (ASE '20).*
+  *The 35th IEEE/ACM International Conference on Automated Software Engineering (__ASE '20__).*
 
 - CODIT: Code Editing with Tree-Based Neural Models [[pdf](https://arxiv.org/abs/1810.00314)]
 
   Saikat Chakraborty, **Yangruibo Ding**, Miltiadis Allamanis, Baishakhi Ray
   
-  *IEEE Transactions on Software Engineering (TSE)*
+  *IEEE Transactions on Software Engineering (__TSE__)* &&
   
-  *The 43rd IEEE/ACM International Conference on Software Engineering (ICSE '21 Journal-First)*
+  *The 43rd IEEE/ACM International Conference on Software Engineering (__ICSE '21 Journal-First__)*
   
 - Deep Learning based Vulnerability Detection: Are We There Yet? [[pdf](https://arxiv.org/abs/2009.07235)]
 
   Saikat Chakraborty, Rahul Krishna, **Yangruibo Ding**, Baishakhi Ray
   
-  *IEEE Transactions on Software Engineering (TSE)*
+  *IEEE Transactions on Software Engineering (__TSE__)* &&
+  
+  *The 44th IEEE/ACM International Conference on Software Engineering (__ICSE '22 Journal-First__)*
 
 - VELVET: a noVel Ensemble Learning approach to automatically locate VulnErable sTatements [[pdf](https://arxiv.org/abs/2112.10893)] [[code](https://github.com/ARiSE-Lab/VELVET)]
 
