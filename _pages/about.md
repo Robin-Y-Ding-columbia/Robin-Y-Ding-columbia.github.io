@@ -46,13 +46,13 @@ ___Conferences & Journals___
 
   **Yangruibo Ding**, Luca Buratti, Saurabh Pujar, Alessandro Morari, Baishakhi Ray, Saikat Chakraborty
   
-  *60th Annual Meeting of the Association for Computational Linguistics (__ACL '22__)*
+  *60th Annual Meeting of the Association for Computational Linguistics (__ACL `22__)*
 
 - Patching as Translation: the Data and the Metaphor [[pdf](https://arxiv.org/abs/2008.10707)] [[code](https://github.com/ARiSE-Lab/Patch-as-translation)] [[talk](https://www.youtube.com/watch?v=6pW8QlM70yE)]
   
   **Yangruibo Ding**, Baishakhi Ray, Premkumar Devanbu, Vincent J. Hellendoorn
   
-  *The 35th IEEE/ACM International Conference on Automated Software Engineering (__ASE '20__).*
+  *The 35th IEEE/ACM International Conference on Automated Software Engineering (__ASE `20__).*
 
 - CODIT: Code Editing with Tree-Based Neural Models [[pdf](https://arxiv.org/abs/1810.00314)]
 
@@ -60,7 +60,7 @@ ___Conferences & Journals___
   
   *IEEE Transactions on Software Engineering (__TSE__)* &&
   
-  *The 43rd IEEE/ACM International Conference on Software Engineering (__ICSE '21 Journal-First__)*
+  *The 43rd IEEE/ACM International Conference on Software Engineering (__ICSE `21 Journal-First__)*
   
 - Deep Learning based Vulnerability Detection: Are We There Yet? [[pdf](https://arxiv.org/abs/2009.07235)]
 
