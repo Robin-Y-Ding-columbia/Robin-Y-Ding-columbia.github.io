@@ -19,6 +19,8 @@ I received my M.S. degree in Computer Science at Columbia University in Dec. 201
 
 News
 ======
+- Feb. 2022: "Towards Learning (Dis)-Similarity of Source Code from Program Contrasts" got accpeted by ACL 2022.
+
 - Feb. 2022: "Deep Learning based Vulnerability Detection: Are We There Yet?" got accepted by ICSE 2022 Journal First Track.
 
 - Dec. 2021: "VELVET: a noVel Ensemble Learning approach to automatically locate VulnErable sTatements" got accepted by SANER 2022.
@@ -37,14 +39,14 @@ News
 
 Publications
 ======
-___Pre-print___
-- Contrastive Learning for Source Code with Structural and Functional Properties [[pdf](http://arxiv.org/abs/2110.03868)]
+  
+___Conferences & Journals___
+
+- Towards Learning (Dis)-Similarity of Source Code from Program Contrasts (pre-print coming soon)
 
   **Yangruibo Ding**, Luca Buratti, Saurabh Pujar, Alessandro Morari, Baishakhi Ray, Saikat Chakraborty
   
-  *ArXiv Pre-print*
-  
-___Conferences & Journals___
+  *60th Annual Meeting of the Association for Computational Linguistics (__ACL '22__)*
 
 - Patching as Translation: the Data and the Metaphor [[pdf](https://arxiv.org/abs/2008.10707)] [[code](https://github.com/ARiSE-Lab/Patch-as-translation)] [[talk](https://www.youtube.com/watch?v=6pW8QlM70yE)]
   
