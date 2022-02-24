@@ -42,7 +42,7 @@ Publications
   
 ___Conferences & Journals___
 
-- Towards Learning (Dis)-Similarity of Source Code from Program Contrasts (pre-print coming soon)
+- Towards Learning (Dis)-Similarity of Source Code from Program Contrasts
 
   **Yangruibo Ding**, Luca Buratti, Saurabh Pujar, Alessandro Morari, Baishakhi Ray, Saikat Chakraborty
   
