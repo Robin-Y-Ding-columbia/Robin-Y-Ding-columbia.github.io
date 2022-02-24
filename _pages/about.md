@@ -46,7 +46,7 @@ ___Conferences & Journals___
 
   **Yangruibo Ding**, Luca Buratti, Saurabh Pujar, Alessandro Morari, Baishakhi Ray, Saikat Chakraborty
   
-  *60th Annual Meeting of the Association for Computational Linguistics (__ACL' 22__)*
+  *The 60th Annual Meeting of the Association for Computational Linguistics (__ACL' 22__)*
 
 - Patching as Translation: the Data and the Metaphor [[pdf](https://arxiv.org/abs/2008.10707)] [[code](https://github.com/ARiSE-Lab/Patch-as-translation)] [[talk](https://www.youtube.com/watch?v=6pW8QlM70yE)]
   
