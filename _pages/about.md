@@ -40,19 +40,23 @@ Publications
   
 ___Conferences & Journals___
 
-- Towards Learning (Dis)-Similarity of Source Code from Program Contrasts
+- ___Towards Learning (Dis)-Similarity of Source Code from Program Contrasts___
 
   **Yangruibo Ding**, Luca Buratti, Saurabh Pujar, Alessandro Morari, Baishakhi Ray, Saikat Chakraborty
   
   *The 60th Annual Meeting of the Association for Computational Linguistics (__ACL' 22__)*
+  
+  &nbsp;
 
-- Patching as Translation: the Data and the Metaphor [[pdf](https://arxiv.org/abs/2008.10707)] [[code](https://github.com/ARiSE-Lab/Patch-as-translation)] [[talk](https://www.youtube.com/watch?v=6pW8QlM70yE)]
+- ___Patching as Translation: the Data and the Metaphor [[pdf](https://arxiv.org/abs/2008.10707)] [[code](https://github.com/ARiSE-Lab/Patch-as-translation)] [[talk](https://www.youtube.com/watch?v=6pW8QlM70yE)]___
   
   **Yangruibo Ding**, Baishakhi Ray, Premkumar Devanbu, Vincent J. Hellendoorn
   
   *The 35th IEEE/ACM International Conference on Automated Software Engineering (__ASE' 20__).*
+  
+  &nbsp;
 
-- CODIT: Code Editing with Tree-Based Neural Models [[pdf](https://arxiv.org/abs/1810.00314)]
+- ___CODIT: Code Editing with Tree-Based Neural Models [[pdf](https://arxiv.org/abs/1810.00314)]___
 
   Saikat Chakraborty, **Yangruibo Ding**, Miltiadis Allamanis, Baishakhi Ray
   
@@ -60,15 +64,19 @@ ___Conferences & Journals___
   
   *The 43rd IEEE/ACM International Conference on Software Engineering (__ICSE' 21 Journal-First__)*
   
-- Deep Learning based Vulnerability Detection: Are We There Yet? [[pdf](https://arxiv.org/abs/2009.07235)]
+  &nbsp;
+  
+- ___Deep Learning based Vulnerability Detection: Are We There Yet? [[pdf](https://arxiv.org/abs/2009.07235)]___
 
   Saikat Chakraborty, Rahul Krishna, **Yangruibo Ding**, Baishakhi Ray
   
   *IEEE Transactions on Software Engineering (__TSE__)* &&
   
   *The 44th IEEE/ACM International Conference on Software Engineering (__ICSE' 22 Journal-First__)*
+  
+  &nbsp;
 
-- VELVET: a noVel Ensemble Learning approach to automatically locate VulnErable sTatements [[pdf](https://arxiv.org/abs/2112.10893)] [[code](https://github.com/ARiSE-Lab/VELVET)]
+- ___VELVET: a noVel Ensemble Learning approach to automatically locate VulnErable sTatements [[pdf](https://arxiv.org/abs/2112.10893)] [[code](https://github.com/ARiSE-Lab/VELVET)]___
 
   **Yangruibo Ding**, Sahil Suneja, Yunhui Zheng, Jim Laredo, Alessandro Morari, Gail Kaiser, Baishakhi Ray
   
