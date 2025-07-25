@@ -11,52 +11,66 @@
 </head>
 
 <body>
+  <!-- Header Navigation -->
+  <header class="header-nav">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <img src="images/logo_UCLA_blue_boxed.png" alt="UCLA Logo">
+        Yangruibo (Robin) Ding
+      </a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#news">News</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#talks">Talks</a></li>
+          <li><a href="#service">Service</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="main-content">
   <table style="width:100%;max-width:1100px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-bottom: -10px;"><tbody>
     <tr style="padding:0px">
       <td style="padding:0px">
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr style="padding:0px">
-            <td style="padding:20px;width:63%;vertical-align:middle">
-              <p style="text-align:center">
-                <name>Yangruibo (Robin) Ding</name>
-              </p>
-              <p style="text-align:center">
-                <a href="mailto:yrbding@cs.columbia.edu">Email</a> &nbsp/&nbsp
-                <a href="https://scholar.google.com/citations?user=lmgRCxkAAAAJ">Google Scholar</a> &nbsp/&nbsp
-                <a href="https://www.linkedin.com/in/robin-yangruibo-ding/">LinkedIn</a> &nbsp/&nbsp
-                <a href="https://twitter.com/RobinDing3">Twitter</a>
-              </p>
-              <p style="margin-bottom: 3px;">
+          <tr style="padding:0px" id="home">
+            <td style="padding:20px;width:75%;vertical-align:middle">
+
+              <p style="margin-bottom: 3px;margin-top: 50px;">
                 <strong>Bio:</strong>&nbsp; I am an incoming <i>Assistant Professor of Computer Science</i> at <a href="https://www.cs.ucla.edu/"><strong>University of California, Los Angeles.</strong></a> 
+                <a href="images/profile_full.jpg"><img style="width:195px;height:auto;border-radius:8px;float:right;margin:0 0 0 20px;box-shadow:0 2px 8px rgba(0,0,0,0.1);" alt="profile photo" src="images/profile_full.jpg" class="hoverZoomLink"></a>
               </p>
               <p style="margin-top: 3px;">
-                I am finishing my Ph.D. in Computer Science at <a href="https://www.cs.columbia.edu/"><strong>Columbia University</strong></a>, advised by <a href="https://www.rayb.info/">Prof. Baishakhi Ray</a> and <a href="http://www.cs.columbia.edu/~kaiser/">Prof. Gail Kaiser</a>. Previoulsy, I have also had wonderful experiences at <a href="https://deepmind.google/"><strong>Google DeepMind</strong></a>, <a href="https://aws.amazon.com/q/developer/"><strong>Amazon AWS AI Labs</strong></a>, and <a href="https://research.ibm.com/topics/ai-for-code"><strong>IBM Research</strong></a> 
+                I completed my Ph.D. in Computer Science at <a href="https://www.cs.columbia.edu/"><strong>Columbia University</strong></a>, advised by <a href="https://www.rayb.info/">Prof. Baishakhi Ray</a> and <a href="http://www.cs.columbia.edu/~kaiser/">Prof. Gail Kaiser</a>. Previoulsy, I have also had wonderful experiences at <a href="https://deepmind.google/"><strong>Google DeepMind</strong></a>, <a href="https://aws.amazon.com/q/developer/"><strong>Amazon AWS AI Labs</strong></a>, and <a href="https://research.ibm.com/topics/ai-for-code"><strong>IBM Research</strong></a>. 
               </p>
               <p style="margin-bottom: 5px;">
                 <strong>Research:</strong>&nbsp; My research focuses on developing large language models (LLMs) for code. I train LLMs to generate, analyze, and refine software programs.
                 I also construct benchmarks to systematically evaluate LLMs' capabilities in solving software engineering tasks. 
                 Most recently, I am interested in improving LLMs' reasoning capability to tackle complex programming tasks, such as debugging and patching.
               </p>
-              <p style="margin-top: 5px;">
+              <p style="margin-top: 15px; margin-bottom: 30px;">
                 For an overview of my research, this <a href="https://www.youtube.com/watch?v=obivLubYSnc">video</a> might help.
               </p>
-              <p style="color:#2774AE; margin-bottom: 5px;">
-                <strong style="color:#0f5285;">[Prospective Students]</strong> I am actively looking for brilliant students to join my research group @ UCLA CS. Solid background in <i><b>Large Language Models, Program Analysis, or Security</b></i> is strongly preferred.
-              </p>
-              <p style="color:#2774AE; margin-top: 5px;">
-                Drop me an email with (1) your CV and (2) a brief introduction of your research interests and background, if you are interested in working with me.
-              </p>
+              
+              <div class="prospective-students">
+                <p>
+                  🎯 &nbsp;&nbsp;I am actively looking for passionate students to join my research group @ UCLA CS. Solid <strong><i>coding skills</i></strong> and experiences in <strong><i>large language models (pre-/post-training or agentic systems), program analysis, or security</i></strong> are strongly preferred.
+                </p>
+                <p>
+                  🤝 &nbsp;&nbsp; If you are interested in working with me, drop me an <strong><a href="mailto:y.robin.ding@gmail.com">email</a></strong> with (1) your CV and (2) a brief introduction of your research interests and background.
+                </p>
+              </div>
 
-            </td>
-            <td style="padding:1.0%;width:23%;max-width:23%">
-              <a href="images/profile_full.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/profile_full.jpg" class="hoverZoomLink"></a>
             </td>
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-bottom: -20px; margin-top: -20px;"><tbody>
-            <tr>
+            <tr id="news">
             <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>News</heading>
+              <h2 class="section-heading">News</h2>
               <p style="margin-top: 20px;">
               <!-- <strong> <span style="width:20px; vertical-align:middle; margin-right:5px;">&#128227;</span> May. 2025: </strong> I gave the invited talk <a href="https://www.youtube.com/watch?v=obivLubYSnc">"From Code Generation Towards Software Engineering: Advancing Code Intelligence w/ Language Models"</a> <strong>@</strong> <strong><em style="font-weight:bold;color:rgb(65, 0, 125);">UWashington CS</em></strong>,&nbsp; <strong><em style="font-weight:bold;color:rgb(39, 116, 174);">UCLA CS</em></strong>,&nbsp; <strong><em style="font-weight:bold;color:rgb(196, 18, 48);">CMU SCS/S3D</em></strong>,&nbsp; <strong><em style="font-weight:bold;color:rgb(0, 45, 114);">Johns Hopkins CS</em></strong>,&nbsp; <strong><em style="font-weight:bold;color:rgb(179, 163, 105);">Georgia Tech SCS</em></strong>,&nbsp; <strong><em style="font-weight:bold;color:rgb(239, 124, 0);">NUS CS</em></strong>,&nbsp; <strong><em style="font-weight:bold;color:rgb(0, 105, 62);">Dartmouth CS</em></strong>,&nbsp; <strong><em style="font-weight:bold;color:rgb(153, 0, 0);">Stony Brook CS</em></strong>,&nbsp; <strong><em style="font-weight:bold;color:rgb(232, 117, 0);">UT Dallas CS</em></strong>,&nbsp; <strong><em style="font-weight:bold;color:rgb(233, 140, 0);">UC Santa Barbara CS</em></strong>,&nbsp; <strong><em style="font-weight:bold;color:rgb(227, 25, 51);">UMaryland CS</em></strong></span>.
               </p>
@@ -91,11 +105,152 @@
           </tr>
         </tbody></table>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-top: 0px;
+       
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr id="publications">
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <h2 class="section-heading">Recent Publications <a href="https://scholar.google.com/citations?user=lmgRCxkAAAAJ">
+                  &nbsp(Full List)
+                </a></h2>
+            </td>
+          </tr>
+        </tbody></table>
+      
+      <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto; margin-bottom: 30px;"><tbody>
+        <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
+          <td style="padding:5px 5px 10px 55px;width:25%;vertical-align:middle">
+              <img src='images/semcoder.jpeg' width="90">
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="https://arxiv.org/abs/2406.01006">
+              <papertitle>SemCoder: Training Code Language Models with Comprehensive Semantics Reasoning</papertitle>
+            </a>
+            <br>
+            <b>Yangruibo Ding</b>,  
+            Jinjun Peng, Marcus J. Min, Gail Kaiser, Junfeng Yang, Baishakhi Ray
+            <br>
+            <p style="margin-top: 5px; margin-bottom: 0px;">
+            </p>
+            <em><a href="https://neurips.cc/">NeurIPS 2024</a></em> 
+            <br>
+          </td>
+        </tr>
+        <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
+            <td style="padding:20px 20px 20px 55px;width:25%;vertical-align:middle">
+                <img src='images/how_far_are_we_ArXiv.jpg' width="100">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2403.18624">
+                <papertitle>Vulnerability Detection with Code Language Models: How Far Are We?</papertitle>
+              </a>
+              <br>  
+              <b>Yangruibo Ding</b>, Yanjun Fu, Omniyyah Ibrahim, Chawin Sitawarin, Xinyun Chen, Basel Alomair, 
+              <br>
+              David Wagner, Baishakhi Ray, Yizheng Chen
+              <br>
+              <p style="margin-top: 5px; margin-bottom: 0px;">
+              </p>
+              <em><a href="https://conf.researchr.org/home/icse-2025">ICSE 2025</a></em> 
+              <br>
+            </td>
+          </tr>
+          <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src='images/CYCLE_OOPSLA_2024.png' width="160">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2403.18746">
+                <papertitle>CYCLE: Learning to Self-Refine Code Generation</papertitle>
+              </a>
+              <br>
+              <b>Yangruibo Ding</b>,  
+              Marcus J. Min, Gail Kaiser, Baishakhi Ray
+              <br>
+              <p style="margin-top: 5px; margin-bottom: 0px;">
+              </p>
+              <em><a href="https://2024.splashcon.org/track/splash-2024-OOPSLA">OOPSLA 2024</a></em> 
+              <br>
+            </td>
+          </tr>
+          <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src='images/IdentityChain_Arxiv.png' width="160">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2310.14053">
+                <papertitle>Beyond Accuracy: Evaluating Self-Consistency of Code Large Language Models with IdentityChain</papertitle>
+              </a>
+              <br>  
+              Marcus J. Min, <b>Yangruibo Ding</b>, Luca Buratti, Saurabh Pujar, Gail Kaiser, Suman Jana, Baishakhi Ray
+              <br>
+              <p style="margin-top: 5px; margin-bottom: 0px;">
+              </p>
+              <em><a href="https://iclr.cc/Conferences/2024/Dates">ICLR 2024 </a></em> 
+              <br>
+            </td>
+          </tr>
+          <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
+            <td style="padding:10px 10px 10px 50px;width:25%;vertical-align:middle">
+                <img src='images/TRACED_ICSE2024.png' width="120">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2306.07487">
+                <papertitle>TRACED: Execution-aware Pre-training for Source Code</papertitle>
+              </a>
+              <br>
+              <b>Yangruibo Ding</b>,  
+              Ben Steenhoek, Kexin Pei, Gail Kaiser, Wei Le, Baishakhi Ray
+              <br>
+              <p style="margin-top: 5px; margin-bottom: 0px;">
+              </p>
+              <em><a href="https://conf.researchr.org/home/icse-2024">ICSE 2024</a></em> 
+              <br>
+            </td>
+          </tr>
+          <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src='images/CoCoMIC_Arxiv.png' width="160">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2212.10007">
+                <papertitle>CoCoMIC: Code Completion By Jointly Modeling In-file and Cross-file Context</papertitle>
+              </a>
+              <br>
+              <b>Yangruibo Ding*</b>,  
+              Zijian Wang*, Wasi Uddin Ahmad*, Murali Krishna Ramanathan, Ramesh Nallapati, Parminder Bhatia, Dan Roth, Bing Xiang (* equal contribution)
+              
+              <br>
+              <p style="margin-top: 5px; margin-bottom: 0px;">
+              </p>
+              <em><a href="https://lrec-coling-2024.org/">LREC-COLING 2024 </a></em> 
+              <br>
+            </td>
+          </tr>
+          <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src='images/CrossCodeEval_NeurIPS_2023.png' width="160">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://crosscodeeval.github.io/">
+                <papertitle>CrossCodeEval: A Diverse and Multilingual Benchmark for Cross-File Code Completion</papertitle>
+              </a>
+              <br>
+              <b>Yangruibo Ding*</b>,  
+              Zijian Wang*, Wasi Uddin Ahmad*, Hantian Ding, Ming Tan, Nihal Jain, Murali Krishna Ramanathan, Ramesh Nallapati, Parminder Bhatia, Dan Roth, Bing Xiang (* equal contribution)
+              <br>
+              <p style="margin-top: 5px; margin-bottom: 0px;">
+              </p>
+              <em><a href="https://neurips.cc/Conferences/2023">NeurIPS 2023 (Datasets & Benchmarks)</a></em> 
+            </td>
+          </tr>
+
+        </tbody></table>
+      
+       <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-top: 0px;
         margin-bottom: -10px;">
           <tbody>
               <td style="padding:20px;width:100%;vertical-align:middle">
-                <heading>Honors and Awards</heading>
+                <h2 class="section-heading">Honors and Awards</h2>
                 <ul style="list-style-position: outside; padding-left: 20px;">
                   <li style="margin-top: 20px; margin-bottom: 10px;">
                     <a href="https://research.ibm.com/university/awards/fellowships-awardees.html" style="font-weight:bold;color:rgb(184, 34, 34);">
@@ -128,300 +283,11 @@
           </tbody>
         </table>
         
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Publications </heading>
-            </td>
-          </tr>
-        </tbody></table>
-      
-      <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto; margin-bottom: 30px;"><tbody>
-        <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
-          <td style="padding:5px 5px 10px 55px;width:25%;vertical-align:middle">
-              <img src='images/semcoder.jpeg' width="90">
-          </td>
-          <td style="padding:20px;width:75%;vertical-align:middle">
-            <a href="https://arxiv.org/abs/2406.01006">
-              <papertitle>SemCoder: Training Code Language Models with Comprehensive Semantics Reasoning</papertitle>
-            </a>
-            <br>
-            <strong>Yangruibo Ding</strong>,  
-            Jinjun Peng, Marcus J. Min, Gail Kaiser, Junfeng Yang, Baishakhi Ray
-            <br>
-            <p style="margin-top: 5px; margin-bottom: 0px;">
-            </p>
-            <em><a href="https://neurips.cc/">NeurIPS 2024</a></em> 
-            <br>
-          </td>
-        </tr>
-        <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
-            <td style="padding:20px 20px 20px 55px;width:25%;vertical-align:middle">
-                <img src='images/how_far_are_we_ArXiv.jpg' width="100">
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2403.18624">
-                <papertitle>Vulnerability Detection with Code Language Models: How Far Are We?</papertitle>
-              </a>
-              <br>  
-              <strong>Yangruibo Ding</strong>, Yanjun Fu, Omniyyah Ibrahim, Chawin Sitawarin, Xinyun Chen, Basel Alomair, 
-              <br>
-              David Wagner, Baishakhi Ray, Yizheng Chen
-              <br>
-              <p style="margin-top: 5px; margin-bottom: 0px;">
-              </p>
-              <em><a href="https://conf.researchr.org/home/icse-2025">ICSE 2025</a></em> 
-              <br>
-            </td>
-          </tr>
-          <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-                <img src='images/CYCLE_OOPSLA_2024.png' width="160">
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2403.18746">
-                <papertitle>CYCLE: Learning to Self-Refine Code Generation</papertitle>
-              </a>
-              <br>
-              <strong>Yangruibo Ding</strong>,  
-              Marcus J. Min, Gail Kaiser, Baishakhi Ray
-              <br>
-              <p style="margin-top: 5px; margin-bottom: 0px;">
-              </p>
-              <em><a href="https://2024.splashcon.org/track/splash-2024-OOPSLA">OOPSLA 2024</a></em> 
-              <br>
-            </td>
-          </tr>
-          <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-                <img src='images/IdentityChain_Arxiv.png' width="160">
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2310.14053">
-                <papertitle>Beyond Accuracy: Evaluating Self-Consistency of Code Large Language Models with IdentityChain</papertitle>
-              </a>
-              <br>  
-              Marcus J. Min, <strong>Yangruibo Ding</strong>, Luca Buratti, Saurabh Pujar, Gail Kaiser, Suman Jana, Baishakhi Ray
-              <br>
-              <p style="margin-top: 5px; margin-bottom: 0px;">
-              </p>
-              <em><a href="https://iclr.cc/Conferences/2024/Dates">ICLR 2024 </a></em> 
-              <br>
-            </td>
-          </tr>
-          <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
-            <td style="padding:10px 10px 10px 50px;width:25%;vertical-align:middle">
-                <img src='images/TRACED_ICSE2024.png' width="120">
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2306.07487">
-                <papertitle>TRACED: Execution-aware Pre-training for Source Code</papertitle>
-              </a>
-              <br>
-              <strong>Yangruibo Ding</strong>,  
-              Ben Steenhoek, Kexin Pei, Gail Kaiser, Wei Le, Baishakhi Ray
-              <br>
-              <p style="margin-top: 5px; margin-bottom: 0px;">
-              </p>
-              <em><a href="https://conf.researchr.org/home/icse-2024">ICSE 2024</a></em> 
-              <br>
-            </td>
-          </tr>
-          <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
-            <td style="padding:10px 10px 10px 50px;width:25%;vertical-align:middle">
-                <img src='images/SarGam_Arixiv.png' width="120">
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://ieeexplore.ieee.org/document/10482873">
-                <papertitle>Automated Code Editing with Search-Generate-Modify</papertitle>
-              </a>
-              <br>  
-              Changshu Liu, Pelin Cetin, Yogesh Patodia, Baishakhi Ray, Saikat Chakraborty, <strong>Yangruibo Ding</strong>
-              <br>
-              <p style="margin-top: 5px; margin-bottom: 0px;">
-              </p>
-              <em><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=32">IEEE Transactions on Software Engineering (TSE)</a></em> 
-              <br>
-            </td>
-          </tr>
-          <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-                <img src='images/CoCoMIC_Arxiv.png' width="160">
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2212.10007">
-                <papertitle>CoCoMIC: Code Completion By Jointly Modeling In-file and Cross-file Context</papertitle>
-              </a>
-              <br>
-              <strong>Yangruibo Ding*</strong>,  
-              Zijian Wang*, Wasi Uddin Ahmad*, Murali Krishna Ramanathan, Ramesh Nallapati, Parminder Bhatia, Dan Roth, Bing Xiang (* equal contribution)
-              
-              <br>
-              <p style="margin-top: 5px; margin-bottom: 0px;">
-              </p>
-              <em><a href="https://lrec-coling-2024.org/">LREC-COLING 2024 </a></em> 
-              <br>
-            </td>
-          </tr>
-          <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-                <img src='images/CrossCodeEval_NeurIPS_2023.png' width="160">
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://crosscodeeval.github.io/">
-                <papertitle>CrossCodeEval: A Diverse and Multilingual Benchmark for Cross-File Code Completion</papertitle>
-              </a>
-              <br>
-              <strong>Yangruibo Ding*</strong>,  
-              Zijian Wang*, Wasi Uddin Ahmad*, Hantian Ding, Ming Tan, Nihal Jain, Murali Krishna Ramanathan, Ramesh Nallapati, Parminder Bhatia, Dan Roth, Bing Xiang (* equal contribution)
-              <br>
-              <p style="margin-top: 5px; margin-bottom: 0px;">
-              </p>
-              <em><a href="https://neurips.cc/Conferences/2023">NeurIPS 2023 (Datasets & Benchmarks)</a></em> 
-            </td>
-          </tr>
-          <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-                <img src='images/CONCORD_ISSTA_2023.jpg' width="160">
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2306.03234">
-                <papertitle>CONCORD: Clone-aware Contrastive Learning for Source Code</papertitle>
-              </a>
-              <br>
-              <strong>Yangruibo Ding</strong>,  
-              Saikat Chakraborty, Luca Buratti, Saurabh Pujar, Alessandro Morari, Gail Kaiser, Baishakhi Ray
-              
-              <br>🏆 <em><b style="color:rgb(184, 34, 34);margin-left: 2px;"> ACM SIGSOFT Distinguished Paper Award</b></em>
-              <br>
-              <p style="margin-top: 5px; margin-bottom: 0px;">
-              </p>
-              <em><a href="https://conf.researchr.org/home/issta-2023">ISSTA 2023</a></em>
-            </td>
-          </tr>
-	      <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
-            <td style="padding:10px 10px 10px 50px;width:25%;vertical-align:middle">
-                <img src='images/NatGen_FSE_2022.png' width="100">
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-							<a href="https://arxiv.org/abs/2206.07585">
-                <papertitle>NatGen: Generative pre-training by "Naturalizing" source code</papertitle>
-              </a>
-              <br>
-	              Saikat Chakraborty, Toufique Ahmed,
-              <strong>Yangruibo Ding</strong>,  
-              Premkumar Devanbu, Baishakhi Ray
-              <br>
-              <p style="margin-top: 5px; margin-bottom: 0px;">
-              </p>
-              <em><a href="https://2022.esec-fse.org/">ESEC/FSE 2022 </a></em> 
-              <br>
-            </td>
-          </tr>
-          <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-                <img src='images/DISCO_ACL_2022_bad.png' width="160">
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-							<a href="https://aclanthology.org/2022.acl-long.436/">
-                <papertitle>Towards Learning (Dis)-Similarity of Source Code from Program Contrasts</papertitle>
-              </a>
-              <br>
-              <strong>Yangruibo Ding</strong>,  
-              Luca Buratti, Saurabh Pujar, Alessandro Morari, Baishakhi Ray, Saikat Chakraborty
-              <br>
-              <p style="margin-top: 5px; margin-bottom: 0px;">
-              </p>
-              <em><a href="https://2022.aclweb.org/index.html">ACL 2022 </a></em> 
-              <br>
-            </td>
-          </tr>
-
-          <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
-            <td style="padding:10px 10px 10px 40px;width:25%;vertical-align:middle">
-                <img src='images/REVEAL_TSE_2021.png' width="130">
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://ieeexplore.ieee.org/abstract/document/9448435">
-                <papertitle>Deep learning based vulnerability detection: Are we there yet</papertitle>
-              </a>
-              <br>
-              Saikat Chakraborty, Rahul Krishna, 
-              <strong>Yangruibo Ding</strong>,  
-              Baishakhi Ray
-              <br>🏆 
-              <em><b style="color:rgb(184, 34, 34);margin-left: 2px;"> IEEE TSE Best Paper Award Runner-up</b> </em>
-
-              <br>
-              <p style="margin-top: 5px; margin-bottom: 0px;">
-              </p>
-              <em><a href="https://conf.researchr.org/home/icse-2022">ICSE 2022 (Journal-First)</a>, <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=32">IEEE Transactions on Software Engineering (TSE)</a></em> 
-              
-            </td>
-          </tr>
-
-          <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
-            <td style="padding:10px 10px 10px 40px;width:25%;vertical-align:middle">
-                <img src='images/VELVET_SANER_2022.png' width="130">
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2112.10893">
-                <papertitle>VELVET: a noVel Ensemble Learning approach to automatically locate VulnErable sTatements</papertitle>
-              </a>
-              <br>
-              <strong>Yangruibo Ding</strong>,  
-              Sahil Suneja, Yunhui Zheng, Jim Laredo, Alessandro Morari, Gail Kaiser, Baishakhi Ray
-              <br>
-              <p style="margin-top: 5px; margin-bottom: 0px;">
-              </p>
-              <em><a href="https://ieeexplore.ieee.org/xpl/conhome/9825713/proceeding">SANER 2022</a></em> 
-              <br>
-            </td>
-          </tr>
-          <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-                <img src='images/CODIT_TSE_2020.png' width="160">
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://ieeexplore.ieee.org/abstract/document/9181462">
-                <papertitle>CODIT: Code Editing With Tree-Based Neural Models</papertitle>
-              </a>
-              <br>
-              Saikat Chakraborty
-              <strong>Yangruibo Ding</strong>,  
-              Miltiadis Allamanis, Baishakhi Ray
-              <br>
-              <p style="margin-top: 5px; margin-bottom: 0px;">
-              </p>
-              <em><a href="https://conf.researchr.org/home/icse-2021">ICSE 2021 (Journal-First)</a>, <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=32">IEEE Transactions on Software Engineering (TSE)</a></em> 
-            </td>
-          </tr>
-          <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
-            <td style="padding:10px 10px 10px 50px;width:25%;vertical-align:middle">
-                <img src='images/ASE_2020.png' width="120">
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://ieeexplore.ieee.org/abstract/document/9286060">
-                <papertitle>Patching as Translation: the Data and the Metaphor</papertitle>
-              </a>
-              <br>
-              <strong>Yangruibo Ding</strong>,  
-              Baishakhi Ray, Premkumar Devanbu, Vincent J Hellendoorn
-              <br>
-              <p style="margin-top: 5px; margin-bottom: 0px;">
-              </p>
-              <em><a href="https://conf.researchr.org/home/ase-2020">ASE 2020</a></em> 
-              <br>
-            </td>
-          </tr>
-
-        </tbody></table>
-
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-top: 0px;
         margin-bottom: -10px;">
           <tbody>
-              <td style="padding:20px;width:100%;vertical-align:middle">
-                <heading>Work Experiences</heading>
+              <td style="padding:20px;width:100%;vertical-align:middle" id="experience">
+                <h2 class="section-heading">Work Experiences</h2>
                 <ul style="list-style-position: outside; padding-left: 20px;">
                   <li style="margin-top: 20px; margin-bottom: 10px;">
                     <strong>May 2024 - Dec 2024: </strong>Student Researcher @ <a href="https://deepmind.google/">Google DeepMind - Learning4Code Team</a>, working with <a href="https://pengcheng.in/">Pengcheng Yin</a>, <a href="https://miltos.allamanis.com/">Miltos Allamanis</a>, <a href="https://shrivastavadisha.github.io/">Disha Shrivastava</a>, <a href="https://scholar.google.com/citations?user=LAL4SIMAAAAJ&hl=en">Kensen Shi</a>, <a href="https://hanjun-dai.github.io/">Hanjun Dai</a>, and <a href="https://homepages.inf.ed.ac.uk/csutton/">Charles Sutton</a>.
@@ -442,8 +308,8 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-top: 0px;
         margin-bottom: -10px;">
           <tbody>
-              <td style="padding:20px;width:100%;vertical-align:middle">
-                <heading>Recent Talks</heading>
+              <td style="padding:20px;width:100%;vertical-align:middle" id="talks">
+                <h2 class="section-heading">Recent Talks</h2>
                 <ul style="list-style-position: outside; padding-left: 20px;">
                   <li style="margin-top: 20px; margin-bottom: 10px;">
                     <strong>Feb. - Apr. 2025: </strong><a href="https://www.youtube.com/watch?v=obivLubYSnc">"From Code Generation Towards Software Engineering: Advancing Code Intelligence w/ Language Models"</a> @ UW, &nbsp;UMD, &nbsp;CMU, &nbsp;UCLA, &nbsp;UTD, &nbsp;JHU, &nbsp;Georgia Tech, &nbsp;Stony Brook, &nbsp;Dartmouth, &nbsp;NUS.
@@ -467,9 +333,9 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-top: -15px;
         margin-bottom: -10px;">
           <tbody>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-                <p><heading>Services</heading></p>
-                <p style="margin-top: 20px;"><subheading>Program Committee</subheading></p>
+            <td style="padding:20px;width:100%;vertical-align:middle" id="service">
+                <h2 class="section-heading">Services</h2>
+                <h3 class="subsection-heading">Program Committee</h3>
                 <ul style="list-style-position: outside; padding-left: 20px;">
                   <li style="margin-top: 10px; margin-bottom: 10px;">
                     <a href="https://conf.researchr.org/track/icse-2026/icse-2026-research-track">
@@ -484,21 +350,10 @@
                   <li style="margin-top: 10px; margin-bottom: 10px;">
                     <a href="https://2023.esec-fse.org/track/fse-2023-artifacts"> ESEC/FSE, Artifacts Track (2023)</a>
                   </li>
-                  <li style="margin-top: 10px; margin-bottom: 10px;">
-                    <a href="https://2021.msrconf.org/committee/msr-2021-mining-challenge-miltiadis-allamanis"> MSR, Mining Challenge Track (2021)</a>
-                  </li>
-                  <li style="margin-top: 10px; margin-bottom: 10px;">
-                    <a href="https://2024.aiwareconf.org/committee/aiware-2024-challenge-track-program-committee">
-                      AIWare (2024)
-                    </a>
-                  </li>
-                  <li style="margin-top: 10px; margin-bottom: 10px;">
-                    <a href="https://mapsworkshop.github.io/organization"> MAPS (2023)</a>
-                  </li>
                   
                 </ul>
 
-                <p><subheading>Conference Reviewer</subheading></p>
+                <h3 class="subsection-heading">Conference Reviewer</h3>
                 <ul style="list-style-position: outside; padding-left: 20px;">
                   <li style="margin-top: 10px; margin-bottom: 10px;">
                     <a href="https://iclr.cc/"> ICLR (2024, 2025)</a>
@@ -516,7 +371,7 @@
                     <a href="https://2023.emnlp.org/">EMNLP (2023)</a>
                   </li>
                 </ul>
-                <p><subheading>Journal Reviewer</subheading></p>
+                <h3 class="subsection-heading">Journal Reviewer</h3>
                 <ul style="list-style-position: outside; padding-left: 20px;">
                   <li style="margin-top: 10px; margin-bottom: 10px;">
                     <p><a href="https://www.computer.org/csdl/journal/ts">IEEE Transactions on Software Engineering (TSE)</a></p>
@@ -530,24 +385,12 @@
           </tbody>
         </table>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-top: -15px;
-        margin-bottom: -10px;">
-          <tbody>
-              <td style="padding:20px;width:100%;vertical-align:middle">
-                <p><heading>Teaching</heading></p>
-                <ul style="list-style-position: outside; padding-left: 20px;">
-                  <li style="margin-top: 10px; margin-bottom: 10px;">
-                    <p><strong>Fall 2021:</strong> <a href="https://www.rayb.info/plt4115-fall2021">COMS4115 Programming Language & Translators, Columbia University</a></p>
-                  </li>
-              </td>
-          </tbody>
-        </table>
 	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
             <td style="padding:0px">
               <br>
               <p>
-                <i style="text-align:left;font-size:medium;">Last Updated: May 2025</i>.
+                <i style="text-align:left;font-size:medium;">Last Updated: July 2025</i>.
               </p>
               <p style="text-align:right;font-size:small;">
                 Photo by Lingyi. Website Template by <a href="https://github.com/jonbarron/jonbarron_website" style="text-align:right;font-size:small;">Jon Barron</a>
@@ -558,6 +401,7 @@
       </td>
     </tr>
   </table>
+  </div> <!-- End main-content -->
 </body>
 
 </html>
